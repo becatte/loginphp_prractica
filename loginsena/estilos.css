@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    color: #15316b; /* Azul oscuro predominante */
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #15316b; /* Azul oscuro predominante */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e428e; /* Cambio de color al pasar el mouse */
+}
+
+a {
+    text-decoration: none;
+    color: #1e428e; /* Azul oscuro predominante para los enlaces */
+}
+
+a:hover {
+    color: #15316b; /* Cambio de color al pasar el mouse */
+}
+
+p {
+    margin-top: 20px;
+}
+
+/* Estilo para los mensajes de éxito y error */
+.success-message,
+.error-message {
+    font-size: 18px; /* Tamaño de fuente más grande */
+    margin: 10px 0; /* Margen superior e inferior para separar el mensaje */
+}
+
+.success-message {
+    color: #008000; /* Color verde */
+}
+
+.error-message {
+    color: #FF0000; /* Color rojo */
+}
